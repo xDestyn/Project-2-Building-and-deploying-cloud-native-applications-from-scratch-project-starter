@@ -3,10 +3,10 @@
   "Values": {
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=proj2storageaccount;AccountKey=45eE0kVlw5ni8U53LJnoibWXUXau7yXE67hLNkE7E+EJc497EIQk1SWLELOtnjo3AqW8B6NrhLst+AStLKd6/g==;EndpointSuffix=core.windows.net",
     "EventHubConnection": "Endpoint=sb://proj2-eventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=o5FbY9j2zMJdsJZlv8wswWj49XsUEXr9WQzk8iMVS2o=",
-    "FUNCTIONS_WORKER_RUNTIME": "python"
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "63bd44c5-14b0-40d6-8500-f8766322a933",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=63bd44c5-14b0-40d6-8500-f8766322a933;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/"
   },
-
-  "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-  "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
-  "EventHubConnection": "Endpoint=sb://proj2-eventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=o5FbY9j2zMJdsJZlv8wswWj49XsUEXr9WQzk8iMVS2o="
+  "ConnectionStrings": {}
 }
